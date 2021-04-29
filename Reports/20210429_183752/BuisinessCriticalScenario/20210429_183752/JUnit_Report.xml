@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="BuisinessCriticalScenario" time="21.888" tests="1" failures="0" skips="0" errors="0">
+   <testsuite name="BuisinessCriticalScenario" tests="1" failures="0" errors="0" time="21.888" skips="0" timestamp="2021-04-29 18:38:01" hostname="gurpreet.kaur - 172.24.144.1" id="Test Suites/BuisinessCriticalScenario">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for x86 - Android 5.1.1)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\gurpreet.kaur\\git\\MobileAutomation\\Reports\\20210429_183752\\BuisinessCriticalScenario\\20210429_183752"/>
+         <property name="logFiles" value="C:\\Users\\gurpreet.kaur\\git\\MobileAutomation\\Reports\\20210429_183752\\BuisinessCriticalScenario\\20210429_183752\\appium.log, C:\\Users\\gurpreet.kaur\\git\\MobileAutomation\\Reports\\20210429_183752\\BuisinessCriticalScenario\\20210429_183752\\execution0.log"/>
+         <property name="attachments" value="D:\mobile\ScreenShot\application.png, D:\mobile\ScreenShot\application.png, D:\mobile\ScreenShot\username.png, D:\mobile\ScreenShot\username.png, D:\mobile\ScreenShot\password.png, D:\mobile\ScreenShot\password.png, D:\mobile\ScreenShot\lastImage.png, D:\mobile\ScreenShot\lastImage.png"/>
+         <property name="hostName" value="gurpreet.kaur - 172.24.144.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.20.2&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="7.9.1.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.20.2"/>
+         <property name="deviceModel" value="Android SDK built for x86"/>
+         <property name="hostAddress" value="172.24.144.1"/>
+         <property name="deviceManufacturer" value="unknown"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for x86 - Android 5.1.1)"/>
+         <property name="deviceOSVersion" value="5.1.1"/>
+      </properties>
+      <testcase name="Test Cases/LoginPageManualTestCase" time="19.248" classname="Test Cases/LoginPageManualTestCase" status="PASSED">
+         <system-out><![CDATA[2021-04-29 18:38:02 - [TEST_CASE][PASSED] - Test Cases/LoginPageManualTestCase: Test Cases/LoginPageManualTestCase
+
+2021-04-29 18:38:03 - [TEST_STEP][PASSED] - startApplication("D:\mobile\MaterialLoginExample.apk", false): Started app at: 'D:\mobile\MaterialLoginExample.apk'
+
+2021-04-29 18:38:05 - [MESSAGE][INFO] - Appium server started on port 62,681
+
+2021-04-29 18:38:15 - [MESSAGE][PASSED] - Started app at: 'D:\mobile\MaterialLoginExample.apk'
+
+2021-04-29 18:38:15 - [TEST_STEP][PASSED] - takeScreenshot("D:\mobile\ScreenShot\application.png"): Screenshot is taken
+
+2021-04-29 18:38:16 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|D:\mobile\ScreenShot\application.png]]
+
+2021-04-29 18:38:16 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|D:\mobile\ScreenShot\application.png]]
+
+2021-04-29 18:38:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("android.widget.EditText"), 0): Element 'Object Repository/android.widget.EditText' is visible
+
+2021-04-29 18:38:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-04-29 18:38:17 - [MESSAGE][PASSED] - Element 'Object Repository/android.widget.EditText' is visible
+
+2021-04-29 18:38:17 - [TEST_STEP][PASSED] - setText(findTestObject("android.widget.EditText"), "msbautoscript04+c2831@taigle.com", 0): Text 'msbautoscript04+c2831@taigle.com' has been set to element 'Object Repository/android.widget.EditText'
+
+2021-04-29 18:38:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-04-29 18:38:18 - [MESSAGE][PASSED] - Text 'msbautoscript04+c2831@taigle.com' has been set to element 'Object Repository/android.widget.EditText'
+
+2021-04-29 18:38:18 - [TEST_STEP][PASSED] - takeScreenshot("D:\mobile\ScreenShot\username.png"): Screenshot is taken
+
+2021-04-29 18:38:18 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|D:\mobile\ScreenShot\username.png]]
+
+2021-04-29 18:38:18 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|D:\mobile\ScreenShot\username.png]]
+
+2021-04-29 18:38:18 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("android.widget.EditText (1)"), 0): Element 'Object Repository/android.widget.EditText (1)' is visible
+
+2021-04-29 18:38:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-04-29 18:38:19 - [MESSAGE][PASSED] - Element 'Object Repository/android.widget.EditText (1)' is visible
+
+2021-04-29 18:38:19 - [TEST_STEP][PASSED] - setText(findTestObject("android.widget.EditText (1)"), "Taigle123!@#", 0): Text 'Taigle123!@#' has been set to element 'Object Repository/android.widget.EditText (1)'
+
+2021-04-29 18:38:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-04-29 18:38:19 - [MESSAGE][PASSED] - Text 'Taigle123!@#' has been set to element 'Object Repository/android.widget.EditText (1)'
+
+2021-04-29 18:38:19 - [TEST_STEP][PASSED] - takeScreenshot("D:\mobile\ScreenShot\password.png"): Screenshot is taken
+
+2021-04-29 18:38:20 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|D:\mobile\ScreenShot\password.png]]
+
+2021-04-29 18:38:20 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|D:\mobile\ScreenShot\password.png]]
+
+2021-04-29 18:38:20 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("android.widget.Button - Login"), 0): Element 'Object Repository/android.widget.Button - Login' is visible
+
+2021-04-29 18:38:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-04-29 18:38:20 - [MESSAGE][PASSED] - Element 'Object Repository/android.widget.Button - Login' is visible
+
+2021-04-29 18:38:20 - [TEST_STEP][PASSED] - tap(findTestObject("android.widget.Button - Login"), 0): Tapped on element 'Object Repository/android.widget.Button - Login'
+
+2021-04-29 18:38:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-04-29 18:38:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.Button - Login'
+
+2021-04-29 18:38:21 - [TEST_STEP][PASSED] - delay(0, STOP_ON_FAILURE): Delayed 0 second(s)
+
+2021-04-29 18:38:21 - [MESSAGE][PASSED] - Delayed 0 second(s)
+
+2021-04-29 18:38:21 - [TEST_STEP][PASSED] - takeScreenshot("D:\mobile\ScreenShot\lastImage.png"): Screenshot is taken
+
+2021-04-29 18:38:22 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|D:\mobile\ScreenShot\lastImage.png]]
+
+2021-04-29 18:38:22 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|D:\mobile\ScreenShot\lastImage.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-04-29 18:38:01 - [TEST_SUITE][PASSED] - BuisinessCriticalScenario: Test Cases/LoginPageManualTestCase]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

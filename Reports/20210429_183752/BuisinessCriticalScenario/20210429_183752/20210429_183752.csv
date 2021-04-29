@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+BuisinessCriticalScenario,,,,2021-04-29 18:38:01,2021-04-29 18:38:22,20.926s,PASSED
+,,,,,,,
+Test Cases/LoginPageManualTestCase,,,,2021-04-29 18:38:02,2021-04-29 18:38:22,19.248s,PASSED
+"startApplication(""D:\mobile\MaterialLoginExample.apk"", false)",,,,2021-04-29 18:38:03,2021-04-29 18:38:15,12.171s,PASSED
+"takeScreenshot(""D:\mobile\ScreenShot\application.png"")",,,,2021-04-29 18:38:15,2021-04-29 18:38:16,1.206s,PASSED
+"verifyElementVisible(findTestObject(""android.widget.EditText""), 0)",,,,2021-04-29 18:38:16,2021-04-29 18:38:17,0.334s,PASSED
+"setText(findTestObject(""android.widget.EditText""), ""msbautoscript04+c2831@taigle.com"", 0)",,,,2021-04-29 18:38:17,2021-04-29 18:38:18,0.763s,PASSED
+"takeScreenshot(""D:\mobile\ScreenShot\username.png"")",,,,2021-04-29 18:38:18,2021-04-29 18:38:18,0.848s,PASSED
+"verifyElementVisible(findTestObject(""android.widget.EditText (1)""), 0)",,,,2021-04-29 18:38:18,2021-04-29 18:38:19,0.137s,PASSED
+"setText(findTestObject(""android.widget.EditText (1)""), ""Taigle123!@#"", 0)",,,,2021-04-29 18:38:19,2021-04-29 18:38:19,0.719s,PASSED
+"takeScreenshot(""D:\mobile\ScreenShot\password.png"")",,,,2021-04-29 18:38:19,2021-04-29 18:38:20,0.924s,PASSED
+"verifyElementVisible(findTestObject(""android.widget.Button - Login""), 0)",,,,2021-04-29 18:38:20,2021-04-29 18:38:20,0.151s,PASSED
+"tap(findTestObject(""android.widget.Button - Login""), 0)",,,,2021-04-29 18:38:20,2021-04-29 18:38:21,0.300s,PASSED
+"delay(0, STOP_ON_FAILURE)",,,,2021-04-29 18:38:21,2021-04-29 18:38:21,0.045s,PASSED
+"takeScreenshot(""D:\mobile\ScreenShot\lastImage.png"")",,,,2021-04-29 18:38:21,2021-04-29 18:38:22,1.025s,PASSED
